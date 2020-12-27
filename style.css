@@ -1,0 +1,37 @@
+body {
+    background-color: #305C62;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 50px;
+}
+
+.navbar {
+    padding-top: 10px;
+}
+
+.navbar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    color: #EFB29F;
+}
+  
+.navbar a.active {
+    color: #D9737E;
+}
+
+.headerText {
+    padding-top: 150px;;
+}
