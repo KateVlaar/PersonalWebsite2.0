@@ -1,6 +1,5 @@
 body {
     background-color: #305C62;
-    text-align: center;
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 16px;
@@ -12,7 +11,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 20px;
+    margin-top: -30px;
+}
+
 .navbar {
+    text-align: center;
     padding-top: 10px;
 }
 
@@ -27,11 +34,67 @@ h1 {
 .navbar a:hover {
     color: #EFB29F;
 }
+
+.projectDescription a:hover {
+    color: #D9737E !important;
+}
   
 .navbar a.active {
     color: #D9737E;
 }
 
 .headerText {
-    padding-top: 150px;;
+    padding-top: 150px;
+    z-index: 200;
+    text-align: center;
+}
+
+.bodyContainer {
+    position: relative;
+}
+
+.homepageImage {
+    width: 100%;
+    height: auto;
+    position:fixed;
+    bottom:0px;
+    left: 0px;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.projectDescription {
+    width: 450px;
+    padding: 5px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.projectTextContainer {
+    margin-top: 55px;
+}
+
+.bookworm {
+    width: 550px;
+    padding: 20px;
+}
+
+.duo {
+    width: 550px;
+    padding: 20px;
+}
+
+.textVenture {
+    width: 550px;
+    padding: 20px;
+}
+
+.projectHeader {
+    text-align: center;
+    /* padding-top: 20px;
+    padding-left: 300px; */
 }
